@@ -5,148 +5,117 @@
     <meta charset="UTF-8">
    <link rel="icon" type="x-icon" href="icon.jpg">
 <style>
-body {
-background-color:white;
-}
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0; 
-	overflow: hidden;
-	background-color: darkblue;
-}
-
-li{
-float: left;
-}
-
-li a, .dropbtn {
-	display: inline-block;
-	color:white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-li a:hover, .dropdoown:hover .dropbtn {
-	background-color:green;
-}
-li .dropdown {
-	display: inline-block;
-}
-	.dropdown-content{
-	 display: none;
-	 position: absolute;
-	 background-color: #f9f9f9;
-	 min-width: 160px;
-	 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
-	 z-index: 1;
-}
-.dropdown-content a{
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block; 
-	text-align: left;
-}
-
-.dropdoown-content a:hover {background-color: #AED6F1;}
-
-.dropdoown:hover .dropdoown-content {
-	display: block;
-}
-
-#footerC{
-	 background-color:darkblue;
-	 color:white;
-	 clear: both;
-	 text-align:center;
-	 padding:2px
-}
-ul {
-	 list-style-type: none;
-	 margin: 0;
-	 padding: 0;
-	 overflow: hidden;
-	 background-color: darkblue;
-}
-
-li {
-	float: left;
-}
-
-li a, .dropbtn {
-	 display: inline-block;
-	 color: white;
-	 text-align: center;
-	 padding: 14px 16px;
-	 text-decoration: none;
-}
-
-li a:hover, .dropdoown:hover .dropbtn {
-	background-color: #28b463;
-}
-
-li.dropdoown {
-	display: inline-block;
-}
-.dropdoown-content {
-    display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
-	z-index: 1;
-	}
-.dropdown-content a { color: black;
-	padding: 12px 16px; 
-	text-decoration: none; 
-	display: block;
-	text-align: left;}
-.dropdown-content a:hover {background-color: #f1f1f1; } 
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-.dropdoown-content a {
-	 color: black;
-	 text-decoration: none;
-	 padding: 12px 16px;
-	 text-align: center;
-	 }
-div.gallery:hover {
-	border: 2px solid gold;
-	}
-div.gallery img { 
-	width:100%;
-	height:auto;
-}
-div.desc {
-	padding: 10px; 
-	text-align: center;
-}
-* { 
-	box-sizing: border-box;
-}
-.responsive {
-	padding: 0 6px;
-	float: left;
-	width: 24.99999%;
-}
-@media only screen and (max-width: 70px) {
-	.responsive {
-		width: 49.99999%;
-		margin: 6px 0;
-	}
-}
-@media only screen and (max-width: 500px) {
-	.responsive {
-		width: 100%;
-	}
-}
-.clearfix:after {
-	content:"";
-	display: table;
-	clear: both;
-}
+            body {
+                background-color: white;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: darkblue;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #28b463;
+            }
+            
+            li.dropdown {
+                display: inline-block;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px darkblue;
+                z-index: 1;
+            }
+            
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+            #footer {
+                background-color: darkblue;
+                color: white;
+                clear: both;
+                text-align: center;
+                padding: 2px;
+            }
+            
+            div.gallery {
+                border: 2px solid gold;
+            }
+            
+            div.gallery:hover {
+                border: 2px solid gold;
+            }
+            
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+            
+            div.desc {
+                padding: 10px;
+                text-align: center;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+                .responsive {
+                    width: 49.99999%;
+                    margin: 6px 0;
+                }
+            }
+            
+            @media only screen and (max-width: 500px) {
+                .responsive {
+                    width: 100%;
+                }
+            }
+            
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
 </style>
 </head>
 <body>
@@ -186,7 +155,6 @@ div.desc {
 		<a href="DSAI.html" target="_blank">"Data Science and Artificial Intelligence "
 		<i style="color:red;">New 2026</i>
 		</a><br>
-	
 	 </div>
     </div>
 	</li>
