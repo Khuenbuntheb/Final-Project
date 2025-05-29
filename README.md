@@ -167,25 +167,25 @@ div.desc {
 	 <div class="dropdown-content">
 		<a href="IT.html" target="_blank">"Information Technology "
 		<i style="color:darkblue;">Since 2003</i>
-		</a>
+		</a><br>
 		<a href="CS.html" target="_blank">"Computer Science "
 		<i style="color:darkblue;">Since 2003</i>
-		</a>
+		</a><br>
 		<a href="ETC.html" target="_blank">"Electronics and Technology "
 		<i style="color:darkblue;">Since 2003</i>
-		</a>
+		</a><br>
 		<a href="GDM.html" target="_blank">"Graphic Design And Multimedia "
 		<i style="color:red;">New 2026</i>
-		</a>
+		</a><br>
 		<a href="BMIT.html" target="_blank">"Business Management Information Technology "
 		<i style="color:red;">New 2026</i>
-		</a>
+		</a><br>
 		<a href="NECS.html" target="_blank">"Network Engineering and Cyber Security "
 		<i style="color:red;">New 2026</i>
-		</a>
+		</a><br>
 		<a href="DSAI.html" target="_blank">"Data Science and Artificial Intelligence "
 		<i style="color:red;">New 2026</i>
-		</a>
+		</a><br>
 	
 	 </div>
     </div>
