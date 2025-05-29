@@ -3,14 +3,127 @@
 <head>
    <title> College Science and Technology</title>
     <meta charset="UTF-8">
-    <meta name="veiwport" content="width=device-width, inital-scale=1">
+    <meta name="veiwport" content="width=device-width, initial-scale=1">
 	<link href=" https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
    <link rel="icon" type="x-icon" href="icon.jpg">
+<style>
+            body {
+                background-color: white;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: darkblue;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color: #28b463;
+            }
+            
+            li.dropdown {
+                display: inline-block;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px darkblue;
+                z-index: 1;
+            }
+            
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            
+            .dropdown-content a:hover {
+                background-color: #f1f1f1;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+            #footer {
+                background-color: darkblue;
+                color: white;
+                clear: both;
+                text-align: center;
+                padding: 2px;
+            }
+            
+            div.gallery {
+                border: 2px solid gold;
+            }
+            
+            div.gallery:hover {
+                border: 2px solid gold;
+            }
+            
+            div.gallery img {
+                width: 100%;
+                height: auto;
+            }
+            
+            div.desc {
+                padding: 10px;
+                text-align: center;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            .responsive {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+                .responsive {
+                    width: 49.99999%;
+                    margin: 6px 0;
+                }
+            }
+            
+            @media only screen and (max-width: 500px) {
+                .responsive {
+                    width: 100%;
+                }
+            }
+            
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+</style>
 </head>
 <body>
 <div>
 <marquee behavior="slide" direction="left" scrollamount="8">
-<img src="banner.jpg" "style="width:100%;">
+<img src="banner.jpg" style="width:100%;" alt="Banner Image">
 </marquee>
 </div>
 <ul>
@@ -23,25 +136,25 @@
 		<a href="javascript: void(0)" class="dropbtn">Degree Programs</a>
 	<div class="dropdown">
 	<div class="dropdown-content">
-		<a href="IT.html" tardet="_blank">"Information Technology "
+		<a href="IT.html" target="_blank">"Information Technology "
 		<i style="color:darkblue;">Since 2003</i>
 		</a>
-		<a href="CS.html" tardet="_blank">"Computer Science "
+		<a href="CS.html" target="_blank">"Computer Science "
 		<i style="color:darkblue;">Since 2003</i>
 		</a>
-		<a href="ETC.html" tardet="_blank">"Electronics and Technology "
+		<a href="ETC.html" target="_blank">"Electronics and Technology "
 		<i style="color:darkblue;">Since 2003</i>
 		</a>
-		<a href="GDM.html" tardet="_blank">"Graphic Design And Multimedia "
+		<a href="GDM.html" target="_blank">"Graphic Design And Multimedia "
 		<i style="color:red;">New 2026</i>
 		</a>
-		<a href="BMIT.html" tardet="_blank">"Business Management Information Technology "
+		<a href="BMIT.html" target="_blank">"Business Management Information Technology "
 		<i style="color:red;">New 2026</i>
 		</a>
-		<a href="NECS.html" tardet="_blank">"Network Engineering and Cyber Security "
+		<a href="NECS.html" target="_blank">"Network Engineering and Cyber Security "
 		<i style="color:red;">New 2026</i>
 		</a>
-		<a href="DSAI.html" tardet="_blank">"Data Science and Artificial Intelligence "
+		<a href="DSAI.html" target="_blank">"Data Science and Artificial Intelligence "
 		<i style="color:red;">New 2026</i>
 		</a>
 	
@@ -97,7 +210,7 @@
 	</div>
 </div>
 <div class="container">
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
+    <span onclick="this.parentElement.style.display='none'" class="closebtn"></span>
     <img id="expandedimg" style="width:100%">
     <div id="imgtext"></div>
 </div>
@@ -151,7 +264,7 @@
    <br>
 <div class="footer">
 <div style="text-align:center;color:white; background-color:darkblue;">
-    <img src="uc.png" width="50px;" heith="40px;">
+    <img src="uc.png" width="50px;" heigth="40px;">
     <p>Copyright © University of Cambodia</p>
     </div>
 </div>
