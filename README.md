@@ -193,10 +193,10 @@ div.desc {
 	<li class="dropdown">
 		<a href="javascript: void(0)" class="dropbtn">Computer Labs</a>
 	   <div class="dropdown-content">
-		<a href="Lab 1.html" target="_blank">Multimedia Lab</a>
-		<a href="Lab 2.html" target="_blank">E-learning Lab</a>
-		<a href="Lab 3.html" target="_blank"> Networking Lab</a>
-		<a href="Lab 4.html" target="_blank">IT Center Lab</a>
+		<a href="Lab 1.html" target="_blank">Multimedia Lab</a><br>
+		<a href="Lab 2.html" target="_blank">E-learning Lab</a><br>
+		<a href="Lab 3.html" target="_blank"> Networking Lab</a><br>
+		<a href="Lab 4.html" target="_blank">IT Center Lab</a><br>
 	   </div>
 	</li>
 </ul>
