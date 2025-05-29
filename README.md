@@ -7,7 +7,7 @@
    <link rel="icon" type="x-icon" href="icon.jpg">
 <style>
             body {
-                background-color: white;
+                background-color: dark blue;
             }
             
             ul {
